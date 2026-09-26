@@ -305,19 +305,15 @@
     flex:none;
   }
   .contact-status-rich::after{
-    content:"";
-    display:block;
-    width:1px;
-    height:38px;
-    background:rgba(255,255,255,.7);
-    flex:none;
+    content:none;
+    display:none;
   }
   .contact-status-rich>span{
     display:flex;
     flex-direction:column;
     gap:4px;
-    border-left:0;
-    padding-left:0;
+    border-left:1px solid rgba(255,255,255,.7);
+    padding-left:18px;
   }
   .contact-status-rich strong{
     font:700 18px/1 'Barlow Condensed',sans-serif;
