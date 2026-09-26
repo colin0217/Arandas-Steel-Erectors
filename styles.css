@@ -227,3 +227,38 @@
     padding-bottom:calc(67px + env(safe-area-inset-bottom,0px)) !important;
   }
 }
+
+/* Final mobile strength-row alignment */
+@media(max-width:580px){
+  .strengths-grid{
+    align-items:stretch;
+  }
+
+  .strengths-grid>div,
+  .strengths-grid>div:first-child,
+  .strengths-grid>div:nth-child(2),
+  .strengths-grid>div:nth-child(3),
+  .strengths-grid>div:last-child{
+    min-height:112px;
+    padding:22px 5px 9px;
+    gap:9px;
+    justify-content:flex-start;
+    align-items:center;
+  }
+
+  .strengths-grid>div>svg{
+    width:31px !important;
+    height:31px !important;
+    flex:0 0 31px;
+    display:block;
+    margin:0 !important;
+  }
+
+  .strengths-grid>div>b{
+    min-height:31px;
+    margin:0;
+    display:block;
+    line-height:1.1;
+    text-align:center;
+  }
+}
