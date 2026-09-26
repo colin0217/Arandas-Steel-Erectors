@@ -197,3 +197,33 @@
     margin:0;
   }
 }
+
+/* Mobile-only hard-hat and sticky action-bar correction */
+@media(max-width:580px){
+  .strengths-grid>div:nth-child(3)>.jobsite-icon{
+    width:36px;
+    height:36px;
+    flex:none;
+    margin:0;
+  }
+
+  .mobile-action-bar{
+    position:fixed !important;
+    left:0 !important;
+    right:0 !important;
+    top:auto !important;
+    bottom:0 !important;
+    margin:0 !important;
+    z-index:9999 !important;
+    transform:translateY(105%);
+  }
+
+  .mobile-action-bar.is-visible{
+    bottom:0 !important;
+    transform:translateY(0) !important;
+  }
+
+  body{
+    padding-bottom:calc(67px + env(safe-area-inset-bottom,0px)) !important;
+  }
+}
