@@ -329,7 +329,6 @@
 /* Desktop-only hard-hat size refinement */
 @media(min-width:801px){
   .strengths-grid>div:nth-child(3)>.jobsite-icon{
-    transform:scale(1.12);
-    transform-origin:center;
+    transform:none;
   }
 }
