@@ -13,8 +13,12 @@
   }
 
   .contact-status-rich::after{
-    content:none;
-    display:none;
+    content:"";
+    display:block;
+    width:1px;
+    height:40px;
+    background:rgba(255,255,255,.48);
+    flex:none;
   }
 
   .contact-status-rich svg{
