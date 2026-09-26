@@ -122,3 +122,5 @@
   .footer-nav a{font-size:14px}
   .footer-bottom{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:18px 0 20px;border-top:1px solid #ffffff42;text-align:center;font-size:12px}
 }
+
+@media(max-width:580px){.strengths-grid>div:nth-child(3){transform:translateY(-4px)}}
