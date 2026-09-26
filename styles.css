@@ -269,3 +269,18 @@
     transform:translateY(-2px);
   }
 }
+
+/* Fine-tune mobile hard-hat vertical proportions */
+@media(max-width:580px){
+  .strengths-grid>div:nth-child(3)>.jobsite-icon{
+    width:34px;
+    height:34px;
+    transform:translateY(-2px);
+  }
+
+  .strengths-grid>div:nth-child(3)>.jobsite-icon .jobsite-icon-mobile{
+    transform-box:fill-box;
+    transform-origin:top center;
+    transform:scaleY(1.14);
+  }
+}
