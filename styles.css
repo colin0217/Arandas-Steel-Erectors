@@ -191,8 +191,8 @@
   .jobsite-icon-desktop{display:none}
   .jobsite-icon-mobile{display:inline}
   .strengths-grid>div:nth-child(3)>.jobsite-icon{
-    width:31px;
-    height:31px;
+    width:33px;
+    height:33px;
     flex:none;
     margin:0;
   }
