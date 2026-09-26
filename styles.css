@@ -168,3 +168,19 @@
     white-space:nowrap;
   }
 }
+
+/* Mobile-only service card link wording */
+@media(max-width:580px){
+  .service-card .card-body>a{
+    font-size:0;
+  }
+  .service-card .card-body>a::before{
+    content:"LEARN MORE →";
+    font:700 10px 'DM Sans',sans-serif;
+    letter-spacing:.025em;
+    color:var(--red);
+  }
+  .service-card .card-body>a span{
+    display:none;
+  }
+}
