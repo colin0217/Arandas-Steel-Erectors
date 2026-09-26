@@ -280,7 +280,7 @@
 
   .strengths-grid>div:nth-child(3)>.jobsite-icon .jobsite-icon-mobile{
     transform-box:fill-box;
-    transform-origin:top center;
-    transform:scaleY(1.14);
+    transform-origin:center top;
+    transform:scale(1.12);
   }
 }
