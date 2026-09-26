@@ -93,3 +93,31 @@
   .about-visual .about-image-divider{display:block;width:4px;height:100%;background:var(--red)}
   .about-copy>p:last-child{order:4;margin:19px 23px 30px;max-width:none;font-size:16px;line-height:1.5}
 }
+
+/* Approved centered mobile closing section */
+@media(max-width:580px){
+  .contact-band{position:relative;overflow:hidden;background:#141b20;color:#fff}
+  .contact-band::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(16,24,32,.90),rgba(16,24,32,.94)),url('assets/steel-frame.webp') center/cover no-repeat;opacity:.42;pointer-events:none}
+  .contact-band-inner{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;text-align:center;gap:0;padding:42px 0 36px;border-bottom:1px solid #ffffff42}
+  .contact-band-inner>div{width:100%;max-width:520px}
+  .contact-band .overline{margin:0 0 11px;color:#ff5260;font-size:11px;letter-spacing:.31em;text-align:center}
+  .contact-band h2{max-width:520px;margin:0 auto;font-size:31px;line-height:1.05;text-align:center}
+  .contact-band p:last-child{max-width:480px;margin:17px auto 0;color:#d7dadd;font-size:16px;line-height:1.45;text-align:center}
+  .contact-status-rich{display:flex;align-items:center;justify-content:center;gap:18px;width:min(100%,330px);min-width:0;min-height:74px;margin:24px auto 0;padding:0 24px;border:0;background:var(--red);color:#fff;text-align:left}
+  .contact-status-rich svg{width:30px;height:30px;flex:none}
+  .contact-status-rich::after{content:"";width:1px;height:42px;background:#ffffff7d}
+  .contact-status-rich>span{display:flex;flex-direction:column;gap:2px}
+  .contact-status-rich strong{font:700 20px/1 'Barlow Condensed',sans-serif;letter-spacing:.04em}
+  .contact-status-rich small{font:400 16px/1.2 'DM Sans',sans-serif;letter-spacing:0;text-transform:none}
+  .footer{background:#141b20}
+  .footer-main{display:flex;flex-direction:column;align-items:center;text-align:center;gap:19px;padding:27px 0 26px}
+  .footer-brand-block{align-items:center;gap:10px}
+  .brand-footer{justify-content:center}
+  .brand-footer img{width:80px;height:66px}
+  .brand-footer strong{font-size:31px}
+  .brand-footer small{font-size:11px}
+  .footer-brand-block>p{font-size:11px;letter-spacing:.22em;text-align:center}
+  .footer-nav{display:flex;justify-content:center;gap:28px;width:100%;flex-wrap:nowrap}
+  .footer-nav a{font-size:14px}
+  .footer-bottom{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:18px 0 20px;border-top:1px solid #ffffff42;text-align:center;font-size:12px}
+}
