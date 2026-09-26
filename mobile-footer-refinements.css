@@ -1,0 +1,41 @@
+/* Final mobile closing-section refinements */
+@media(max-width:580px){
+  .contact-band-inner{
+    padding:39px 0 28px;
+  }
+
+  .contact-status-rich{
+    width:min(100%,285px);
+    min-height:70px;
+    margin-top:22px;
+    padding:0 22px;
+    gap:14px;
+  }
+
+  .contact-status-rich::after{
+    content:none;
+    display:none;
+  }
+
+  .contact-status-rich svg{
+    width:28px;
+    height:28px;
+  }
+
+  .footer-main{
+    gap:15px;
+    padding:22px 0 21px;
+  }
+
+  .footer-brand-block{
+    gap:7px;
+  }
+
+  .footer-nav{
+    margin-top:-2px;
+  }
+
+  .footer-bottom{
+    padding:17px 0 19px;
+  }
+}
