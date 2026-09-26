@@ -262,3 +262,10 @@
     text-align:center;
   }
 }
+
+/* Fine-tune mobile hard-hat vertical alignment */
+@media(max-width:580px){
+  .strengths-grid>div:nth-child(3)>.jobsite-icon{
+    transform:translateY(-2px);
+  }
+}
